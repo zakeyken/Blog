@@ -1,0 +1,1630 @@
+2016-06-16 10:52:58,798 [Thread-7:4692] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 10:52:59,457 [Thread-8:6072] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 10:52:59,806 [Thread-21:14760] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-06-16 10:53:02,943 [Thread-27:11848] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 10:53:06,046 [Thread-29:6968] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 11:04:35,173 [Thread-2:13424] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\views.py", line 171, in index
+    return render(req, 'index.html', locals())
+  File "c:\python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "c:\python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 204, in render
+    with context.bind_template(self):
+  File "c:\python27\Lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "c:\python27\lib\site-packages\django\template\context.py", line 260, in bind_template
+    updates.update(processor(self.request))
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\views.py", line 16, in global_setting
+    SITE_URL = settings.SITE_URL
+  File "c:\python27\lib\site-packages\django\conf\__init__.py", line 56, in __getattr__
+    return getattr(self._wrapped, name)
+AttributeError: 'Settings' object has no attribute 'SITE_URL'
+2016-06-16 11:05:46,826 [Thread-3:2680] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 11:05:46,884 [Thread-4:380] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 11:06:26,625 [Thread-7:7248] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 15:15:32,154 [Thread-2:10892] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 15:15:32,230 [Thread-4:5248] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 15:15:32,657 [Thread-5:8820] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-06-16 15:48:29,637 [Thread-3:1576] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\views.py", line 171, in index
+    return render(req, 'index.html', locals())
+  File "c:\python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "c:\python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 200, in render
+    template = context.template.engine.get_template(template_name)
+  File "c:\python27\lib\site-packages\django\template\engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "c:\python27\lib\site-packages\django\template\engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "c:\python27\lib\site-packages\django\template\loaders\base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "c:\python27\lib\site-packages\django\template\base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "c:\python27\lib\site-packages\django\template\base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "c:\python27\lib\site-packages\django\template\base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: Invalid block tag on line 6: 'ad.image_url', expected 'empty' \u6216 'endfor'. Did you forget to register or load this tag?
+2016-06-16 15:49:29,073 [Thread-34:1868] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 15:49:29,140 [Thread-35:1588] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 15:52:36,135 [Thread-44:5992] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 15:59:29,029 [Thread-7:10224] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 15:59:29,086 [Thread-8:8168] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 16:00:05,696 [Thread-26:2336] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 16:00:07,746 [Thread-32:1052] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 16:00:44,959 [Thread-38:3308] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 16:09:56,105 [Thread-7:5172] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 16:10:48,341 [Thread-13:3352] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 16:12:11,612 [Thread-19:10888] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 16:12:56,115 [Thread-25:6232] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 16:13:54,756 [Thread-31:9192] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 16:15:35,967 [Thread-37:9932] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 16:18:57,686 [Thread-7:2288] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 16:19:01,016 [Thread-9:5300] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 16:19:02,836 [Thread-11:3656] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 16:19:07,012 [Thread-13:2252] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 16:19:09,565 [Thread-15:5116] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 16:31:01,694 [Thread-21:5664] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 16:33:58,592 [Thread-27:9972] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 16:34:09,398 [Thread-29:2196] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 16:34:21,477 [Thread-31:11216] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 16:36:16,648 [Thread-7:4584] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 16:36:45,313 [Thread-7:10404] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 16:39:05,046 [Thread-9:3756] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 16:39:07,167 [Thread-11:3892] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 16:39:17,209 [Thread-13:8520] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 16:45:13,523 [Thread-19:2008] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 16:45:13,578 [Thread-21:4340] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-16 16:45:57,243 [Thread-41:4180] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 09:42:07,963 [Thread-3:6872] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 09:42:08,049 [Thread-4:2436] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 09:42:08,470 [Thread-5:11680] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-06-17 09:42:11,536 [Thread-11:8956] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 10:02:44,288 [Thread-7:5768] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 10:04:23,821 [Thread-9:9688] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 10:05:49,677 [Thread-15:7324] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 10:12:24,625 [Thread-7:11188] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 10:12:26,647 [Thread-9:4536] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 10:14:13,217 [Thread-15:6820] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 10:59:29,474 [Thread-22:11828] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 10:59:32,773 [Thread-24:11340] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 10:59:36,855 [Thread-26:10360] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 11:01:08,561 [Thread-7:12584] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 11:05:31,177 [Thread-7:8068] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 11:05:33,627 [Thread-8:12296] [django.request:182] [base:get_response] [WARNING]- Not Found: /index.html
+2016-06-17 11:05:36,947 [Thread-10:7960] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 11:05:37,007 [Thread-11:13104] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 11:16:09,390 [Thread-2:7340] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /archive
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 123, in get_response
+    response = middleware_method(request)
+  File "c:\python27\lib\site-packages\django\middleware\common.py", line 61, in process_request
+    if self.should_redirect_with_slash(request):
+  File "c:\python27\lib\site-packages\django\middleware\common.py", line 79, in should_redirect_with_slash
+    not urlresolvers.is_valid_path(request.path_info, urlconf)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 668, in is_valid_path
+    resolve(path, urlconf)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 534, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 376, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 248, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 255, in callback
+    self._callback = get_callable(self._callback_str)
+  File "c:\python27\lib\site-packages\django\utils\lru_cache.py", line 100, in wrapper
+    result = user_function(*args, **kwds)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 136, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import 'blog.urls'. View does not exist in module blog.
+2016-06-17 11:16:23,240 [Thread-3:8892] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /archive
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 123, in get_response
+    response = middleware_method(request)
+  File "c:\python27\lib\site-packages\django\middleware\common.py", line 61, in process_request
+    if self.should_redirect_with_slash(request):
+  File "c:\python27\lib\site-packages\django\middleware\common.py", line 79, in should_redirect_with_slash
+    not urlresolvers.is_valid_path(request.path_info, urlconf)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 668, in is_valid_path
+    resolve(path, urlconf)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 534, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 376, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 248, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 255, in callback
+    self._callback = get_callable(self._callback_str)
+  File "c:\python27\lib\site-packages\django\utils\lru_cache.py", line 100, in wrapper
+    result = user_function(*args, **kwds)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 136, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import 'blog.urls'. View does not exist in module blog.
+2016-06-17 11:34:21,650 [Thread-2:480] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 134, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 376, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 248, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 255, in callback
+    self._callback = get_callable(self._callback_str)
+  File "c:\python27\lib\site-packages\django\utils\lru_cache.py", line 100, in wrapper
+    result = user_function(*args, **kwds)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 136, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import 'blog.urls'. View does not exist in module blog.
+2016-06-17 11:37:49,515 [Thread-2:8284] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 134, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 376, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 248, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 255, in callback
+    self._callback = get_callable(self._callback_str)
+  File "c:\python27\lib\site-packages\django\utils\lru_cache.py", line 100, in wrapper
+    result = user_function(*args, **kwds)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 115, in get_callable
+    mod = import_module(mod_name)
+  File "c:\python27\Lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: Import by filename is not supported.
+2016-06-17 11:38:43,601 [Thread-2:8540] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 134, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 376, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 248, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 255, in callback
+    self._callback = get_callable(self._callback_str)
+  File "c:\python27\lib\site-packages\django\utils\lru_cache.py", line 100, in wrapper
+    result = user_function(*args, **kwds)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 102, in get_callable
+    "'%s' is not a callable or a dot-notation path" % lookup_view
+ViewDoesNotExist: '<module 'blog.urls' from 'C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\urls.py'>' is not a callable or a dot-notation path
+2016-06-17 11:40:39,628 [Thread-2:3200] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\views.py", line 173, in index
+    return render(req, 'index.html', locals())
+  File "c:\python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "c:\python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'archive' with arguments '()' and keyword arguments '{}' not found. 1 pattern(s) tried: ['$archive$']
+2016-06-17 11:40:44,644 [Thread-2:12076] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\views.py", line 173, in index
+    return render(req, 'index.html', locals())
+  File "c:\python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "c:\python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'archive' with arguments '()' and keyword arguments '{}' not found. 1 pattern(s) tried: ['$archive$']
+2016-06-17 11:44:03,046 [Thread-3:12028] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\views.py", line 173, in index
+    return render(req, 'index.html', locals())
+  File "c:\python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "c:\python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'archive' with arguments '()' and keyword arguments '{}' not found. 1 pattern(s) tried: ['$archive$']
+2016-06-17 11:46:11,141 [Thread-7:12700] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 11:46:11,197 [Thread-8:9544] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 11:46:20,819 [Thread-27:9176] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 11:47:46,265 [Thread-2:7988] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\views.py", line 173, in index
+    return render(req, 'index.html', locals())
+  File "c:\python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "c:\python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'archive' with arguments '()' and keyword arguments '{}' not found. 1 pattern(s) tried: ['$archive$']
+2016-06-17 11:48:39,213 [Thread-2:476] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\views.py", line 173, in index
+    return render(req, 'index.html', locals())
+  File "c:\python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "c:\python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'archive' with arguments '()' and keyword arguments '{}' not found. 1 pattern(s) tried: ['$archive/$']
+2016-06-17 12:18:01,236 [Thread-2:3800] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\views.py", line 170, in index
+    return render(req, 'index.html', locals())
+  File "c:\python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "c:\python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'archive' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-06-17 12:18:09,765 [Thread-7:1632] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 12:18:09,828 [Thread-8:6392] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 12:33:28,611 [Thread-27:8216] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 12:33:28,670 [Thread-28:6624] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 12:42:09,263 [Thread-47:7720] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 12:42:17,825 [Thread-50:11988] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 12:42:17,878 [Thread-51:11360] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 13:01:06,673 [Thread-58:7176] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 13:01:06,732 [Thread-59:200] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 13:04:26,447 [Thread-7:4476] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 13:04:31,638 [Thread-9:12636] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 13:04:31,691 [Thread-10:11764] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 13:04:38,664 [Thread-12:10556] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 13:04:41,818 [Thread-14:8612] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 13:04:50,147 [Thread-16:10908] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 13:04:54,651 [Thread-18:12828] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 13:04:59,164 [Thread-20:7120] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 13:05:00,966 [Thread-22:5100] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 13:08:28,838 [Thread-7:11988] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:06:28,263 [Thread-26:7688] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:23:43,193 [Thread-2:11420] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\views.py", line 171, in index
+    return render(req, 'index.html', locals())
+  File "c:\python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "c:\python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'tag' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-06-17 14:23:55,118 [Thread-3:7408] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\views.py", line 171, in index
+    return render(req, 'index.html', locals())
+  File "c:\python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "c:\python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'tag' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-06-17 14:24:12,227 [Thread-2:11616] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\views.py", line 171, in index
+    return render(req, 'index.html', locals())
+  File "c:\python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "c:\python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'tag' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-06-17 14:25:28,615 [Thread-8:280] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:25:32,118 [Thread-22:13116] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 14:25:35,743 [Thread-24:1640] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 14:25:39,003 [Thread-26:13184] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 14:25:41,282 [Thread-28:6728] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 14:25:43,128 [Thread-30:9108] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 14:25:44,290 [Thread-32:12332] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 14:27:13,198 [Thread-7:5568] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 14:27:15,565 [Thread-9:4580] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 14:27:16,979 [Thread-11:7288] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 14:27:38,355 [Thread-13:12668] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:27:45,437 [Thread-15:8308] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 14:28:27,036 [Thread-7:13116] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 14:28:35,213 [Thread-9:5864] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:28:37,707 [Thread-11:12636] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 14:29:39,687 [Thread-7:2472] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 14:29:42,492 [Thread-9:7984] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 14:29:58,463 [Thread-11:12264] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:30:03,858 [Thread-13:9900] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:30:41,601 [Thread-17:12620] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:30:51,576 [Thread-19:13080] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:32:30,788 [Thread-62:9364] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:32:33,910 [Thread-77:620] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:33:52,305 [Thread-79:4912] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:33:54,868 [Thread-81:10688] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:34:02,591 [Thread-85:7596] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:34:04,243 [Thread-87:2464] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:34:06,536 [Thread-89:11020] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:34:08,644 [Thread-91:9832] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:35:04,780 [Thread-7:2080] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:35:13,467 [Thread-9:9200] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:35:21,927 [Thread-11:4184] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:36:25,960 [Thread-15:2192] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:36:31,055 [Thread-17:4936] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:49:06,315 [Thread-3:10596] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:49:08,970 [Thread-5:7596] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:50:55,766 [Thread-7:5936] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:51:06,063 [Thread-9:3516] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:51:08,565 [Thread-11:5256] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:51:09,792 [Thread-13:12808] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:51:12,842 [Thread-15:13184] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:51:14,917 [Thread-17:12920] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:52:05,244 [Thread-23:4536] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:52:11,783 [Thread-25:800] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:52:14,963 [Thread-27:2632] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 14:53:09,869 [Thread-35:8696] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 14:53:16,266 [Thread-37:11332] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 14:53:33,660 [Thread-47:1880] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 14:54:42,573 [Thread-7:2632] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 14:55:15,490 [Thread-3:4820] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:55:19,450 [Thread-5:8604] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 14:57:08,721 [Thread-9:1072] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:58:09,575 [Thread-19:11576] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 14:58:12,599 [Thread-21:9444] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 14:58:21,857 [Thread-23:12900] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 15:02:44,423 [Thread-3:4016] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 15:02:54,392 [Thread-5:13124] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 15:07:19,551 [Thread-3:1980] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 15:07:24,121 [Thread-5:620] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 15:07:27,236 [Thread-7:1632] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 15:07:28,298 [Thread-9:10816] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 15:07:29,089 [Thread-11:3660] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 15:07:30,588 [Thread-13:6588] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 15:11:51,923 [Thread-3:7992] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 15:11:56,898 [Thread-5:12828] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 15:12:01,973 [Thread-7:5648] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 15:12:05,763 [Thread-9:2348] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 15:12:07,930 [Thread-11:220] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 15:12:10,390 [Thread-13:2316] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 15:12:27,720 [Thread-15:1568] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 15:17:50,670 [Thread-16:1984] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/index.html
+2016-06-17 15:17:55,661 [Thread-17:2512] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/index.html
+2016-06-17 15:17:58,026 [Thread-18:7344] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/index.html
+2016-06-17 15:19:38,186 [Thread-19:4784] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\views.py", line 173, in index
+    return render(req, 'index.html', locals())
+  File "c:\python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "c:\python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'article' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-06-17 15:19:47,463 [Thread-2:7472] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /tag/
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\views.py", line 58, in tag
+    return render(req, 'tag.html', locals())
+  File "c:\python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "c:\python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'article' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-06-17 15:20:22,046 [Thread-7:4868] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 15:20:25,622 [Thread-21:5324] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\views.py", line 88, in article
+    return render(req,'article.html',locals())
+  File "c:\python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 32, in get_template
+    return engine.get_template(template_name, dirs)
+  File "c:\python27\lib\site-packages\django\template\backends\django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "c:\python27\lib\site-packages\django\template\engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "c:\python27\lib\site-packages\django\template\engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "c:\python27\lib\site-packages\django\template\loaders\base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "c:\python27\lib\site-packages\django\template\base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "c:\python27\lib\site-packages\django\template\base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "c:\python27\lib\site-packages\django\template\base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: 'myfilter' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+future
+i18n
+l10n
+log
+static
+staticfiles
+tz
+2016-06-17 15:46:15,730 [Thread-22:3708] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /tag/
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\views.py", line 58, in tag
+    return render(req, 'tag.html', locals())
+  File "c:\python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "c:\python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 151, in render
+    compiled_parent = self.get_parent(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 148, in get_parent
+    return self.find_template(parent, context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 128, in find_template
+    template_name, skip=history,
+  File "c:\python27\lib\site-packages\django\template\engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "c:\python27\lib\site-packages\django\template\loaders\base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "c:\python27\lib\site-packages\django\template\base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "c:\python27\lib\site-packages\django\template\base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "c:\python27\lib\site-packages\django\template\base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: 'myfilter' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+future
+i18n
+l10n
+log
+static
+staticfiles
+tz
+2016-06-17 15:46:31,884 [Thread-28:11088] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\views.py", line 173, in index
+    return render(req, 'index.html', locals())
+  File "c:\python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "c:\python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 151, in render
+    compiled_parent = self.get_parent(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 148, in get_parent
+    return self.find_template(parent, context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 128, in find_template
+    template_name, skip=history,
+  File "c:\python27\lib\site-packages\django\template\engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "c:\python27\lib\site-packages\django\template\loaders\base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "c:\python27\lib\site-packages\django\template\base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "c:\python27\lib\site-packages\django\template\base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "c:\python27\lib\site-packages\django\template\base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: 'myfilter' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+future
+i18n
+l10n
+log
+static
+staticfiles
+tz
+2016-06-17 15:47:59,121 [Thread-34:2304] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\views.py", line 173, in index
+    return render(req, 'index.html', locals())
+  File "c:\python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "c:\python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 151, in render
+    compiled_parent = self.get_parent(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 148, in get_parent
+    return self.find_template(parent, context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 128, in find_template
+    template_name, skip=history,
+  File "c:\python27\lib\site-packages\django\template\engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "c:\python27\lib\site-packages\django\template\loaders\base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "c:\python27\lib\site-packages\django\template\base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "c:\python27\lib\site-packages\django\template\base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "c:\python27\lib\site-packages\django\template\base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: 'myfilter' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+future
+i18n
+l10n
+log
+static
+staticfiles
+tz
+2016-06-17 15:48:07,654 [Thread-3:6172] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 15:48:10,565 [Thread-5:8484] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 15:48:14,924 [Thread-6:10612] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\views.py", line 88, in article
+    return render(req,'article.html',locals())
+  File "c:\python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "c:\python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'logout' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-06-17 15:49:38,150 [Thread-2:7232] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\views.py", line 88, in article
+    return render(req,'article.html',locals())
+  File "c:\python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "c:\python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'comment_post' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-06-17 16:56:49,913 [Thread-2:8696] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\views.py", line 88, in article
+    return render(req,'article.html',locals())
+  File "c:\python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "c:\python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'comment_post' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-06-17 16:58:07,121 [Thread-7:5736] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-17 16:58:37,733 [Thread-21:12808] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 16:58:38,078 [Thread-23:8452] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 16:58:41,411 [Thread-25:4368] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-17 17:01:29,611 [Thread-33:7048] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-17 17:04:30,329 [Thread-7:4296] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 17:04:34,563 [Thread-15:728] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 17:04:36,117 [Thread-17:5256] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-17 17:04:45,569 [Thread-19:7612] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 17:06:25,006 [Thread-25:9576] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 17:06:27,217 [Thread-40:8920] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-17 17:06:59,855 [Thread-46:4752] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 17:07:01,334 [Thread-60:4580] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\views.py", line 88, in article
+    return render(req,'article.html',locals())
+  File "c:\python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 32, in get_template
+    return engine.get_template(template_name, dirs)
+  File "c:\python27\lib\site-packages\django\template\backends\django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "c:\python27\lib\site-packages\django\template\engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "c:\python27\lib\site-packages\django\template\engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "c:\python27\lib\site-packages\django\template\loaders\base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "c:\python27\lib\site-packages\django\template\base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "c:\python27\lib\site-packages\django\template\base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "c:\python27\lib\site-packages\django\template\base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: Invalid filter: 'month_to_upper'
+2016-06-17 17:15:20,934 [Thread-66:5080] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 17:15:23,622 [Thread-81:7356] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-17 17:15:32,726 [Thread-87:7412] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-17 17:15:34,348 [Thread-105:200] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-17 17:15:38,910 [Thread-7:10348] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-17 17:16:59,400 [Thread-2:11048] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\views.py", line 88, in article
+    return render(req,'article.html',locals())
+  File "c:\python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 26, in get_template
+    engines = _engine_list(using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 143, in _engine_list
+    return engines.all() if using is None else [engines[using]]
+  File "c:\python27\lib\site-packages\django\template\utils.py", line 110, in all
+    return [self[alias] for alias in self]
+  File "c:\python27\lib\site-packages\django\template\utils.py", line 101, in __getitem__
+    engine = engine_cls(params)
+  File "c:\python27\lib\site-packages\django\template\backends\django.py", line 31, in __init__
+    options['libraries'] = self.get_templatetag_libraries(libraries)
+  File "c:\python27\lib\site-packages\django\template\backends\django.py", line 49, in get_templatetag_libraries
+    libraries = get_installed_libraries()
+  File "c:\python27\lib\site-packages\django\template\backends\django.py", line 142, in get_installed_libraries
+    for name in get_package_libraries(pkg):
+  File "c:\python27\lib\site-packages\django\template\backends\django.py", line 155, in get_package_libraries
+    module = import_module(entry[1])
+  File "c:\python27\Lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\templatetags\myfilter.py", line 9, in <module>
+    register.filter(month_to_upper,'month_to_upper')
+  File "c:\python27\lib\site-packages\django\template\library.py", line 91, in filter
+    filter_func._filter_name = name
+AttributeError: 'str' object has no attribute '_filter_name'
+2016-06-17 17:17:18,140 [Thread-10:7612] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-17 17:17:51,757 [Thread-16:4568] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-17 17:18:33,641 [Thread-22:6156] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-17 17:18:47,489 [Thread-28:8452] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-17 17:20:19,819 [Thread-34:7740] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-17 17:20:27,808 [Thread-42:8184] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 17:21:50,786 [Thread-44:6988] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-17 17:22:38,345 [Thread-7:5196] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-17 17:22:46,786 [Thread-20:11420] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/index.html
+2016-06-17 17:24:36,907 [Thread-26:2716] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-17 17:24:38,112 [Thread-40:13144] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 17:25:10,322 [Thread-46:5736] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-17 17:25:11,588 [Thread-59:1644] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/index
+2016-06-17 17:25:40,882 [Thread-65:7420] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-17 17:25:43,078 [Thread-83:7084] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 17:25:43,622 [Thread-84:10320] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 17:25:44,940 [Thread-98:4568] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-06-17 17:25:53,134 [Thread-105:5412] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 17:27:17,066 [Thread-124:10580] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 17:27:18,437 [Thread-139:11260] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 17:27:21,510 [Thread-141:7196] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-17 17:27:22,967 [Thread-143:980] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 17:27:28,848 [Thread-149:10572] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 17:31:08,128 [Thread-7:5100] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 17:31:12,194 [Thread-22:12668] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-17 17:31:34,404 [Thread-23:10908] [django.request:182] [base:get_response] [WARNING]- Not Found: /index/article/
+2016-06-17 17:35:39,357 [Thread-35:4604] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 17:36:00,298 [Thread-55:5684] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-17 17:36:10,312 [Thread-57:12808] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-17 17:37:04,657 [Thread-7:13200] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-17 17:38:49,839 [Thread-38:1588] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-17 17:39:15,016 [Thread-7:3904] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-17 17:40:14,361 [Thread-51:8396] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-17 17:41:22,668 [Thread-7:3728] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-17 17:41:43,341 [Thread-14:5364] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-17 17:43:02,700 [Thread-7:6988] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-17 17:45:15,789 [Thread-7:8712] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-18 10:53:11,563 [Thread-3:7188] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-18 10:53:12,016 [Thread-4:2216] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-06-18 10:53:17,799 [Thread-6:4936] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-18 10:53:48,384 [Thread-9:4196] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-18 10:54:01,805 [Thread-11:5472] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-18 10:54:06,750 [Thread-13:12048] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-18 11:09:15,289 [Thread-19:14092] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-18 11:09:33,579 [Thread-34:14112] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-18 11:09:40,227 [Thread-36:4704] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-18 11:11:11,020 [Thread-44:2968] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-18 11:11:12,433 [Thread-59:6820] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-18 11:11:30,806 [Thread-61:4244] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-18 11:11:33,838 [Thread-63:7644] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-18 11:11:35,959 [Thread-65:2820] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-18 11:12:29,135 [Thread-67:592] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-18 11:12:32,779 [Thread-68:14072] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /logout
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view django.contrib.auth.logout didn't return an HttpResponse object. It returned None instead.
+2016-06-18 11:14:31,322 [Thread-3:14868] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-18 11:14:33,976 [Thread-9:14716] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-18 11:15:06,553 [Thread-23:11372] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-18 11:15:09,502 [Thread-26:4740] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-06-18 13:00:43,888 [Thread-28:9196] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-18 13:00:47,984 [Thread-30:14788] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-18 13:03:34,049 [Thread-31:12964] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/portal.php
+2016-06-18 13:11:26,086 [Thread-7:9220] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-18 13:11:28,247 [Thread-21:8592] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /feed
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "c:\python27\lib\site-packages\django\contrib\syndication\views.py", line 41, in __call__
+    feedgen = self.get_feed(obj, request)
+  File "c:\python27\lib\site-packages\django\contrib\syndication\views.py", line 169, in get_feed
+    for item in self.__get_dynamic_attr('items', obj):
+  File "c:\python27\lib\site-packages\django\db\models\query.py", line 258, in __iter__
+    self._fetch_all()
+  File "c:\python27\lib\site-packages\django\db\models\query.py", line 1074, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "c:\python27\lib\site-packages\django\db\models\query.py", line 52, in __iter__
+    results = compiler.execute_sql()
+  File "c:\python27\lib\site-packages\django\db\models\sql\compiler.py", line 837, in execute_sql
+    sql, params = self.as_sql()
+  File "c:\python27\lib\site-packages\django\db\models\sql\compiler.py", line 382, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "c:\python27\lib\site-packages\django\db\models\sql\compiler.py", line 49, in pre_sql_setup
+    order_by = self.get_order_by()
+  File "c:\python27\lib\site-packages\django\db\models\sql\compiler.py", line 295, in get_order_by
+    field, self.query.get_meta(), default_order=asc))
+  File "c:\python27\lib\site-packages\django\db\models\sql\compiler.py", line 566, in find_ordering_name
+    field, targets, alias, joins, path, opts = self._setup_joins(pieces, opts, alias)
+  File "c:\python27\lib\site-packages\django\db\models\sql\compiler.py", line 599, in _setup_joins
+    pieces, opts, alias)
+  File "c:\python27\lib\site-packages\django\db\models\sql\query.py", line 1405, in setup_joins
+    names, opts, allow_many, fail_on_missing=True)
+  File "c:\python27\lib\site-packages\django\db\models\sql\query.py", line 1330, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+FieldError: Cannot resolve keyword 'publish_date' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2016-06-18 13:11:49,947 [Thread-22:7844] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /feed
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "c:\python27\lib\site-packages\django\contrib\syndication\views.py", line 41, in __call__
+    feedgen = self.get_feed(obj, request)
+  File "c:\python27\lib\site-packages\django\contrib\syndication\views.py", line 169, in get_feed
+    for item in self.__get_dynamic_attr('items', obj):
+  File "c:\python27\lib\site-packages\django\db\models\query.py", line 258, in __iter__
+    self._fetch_all()
+  File "c:\python27\lib\site-packages\django\db\models\query.py", line 1074, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "c:\python27\lib\site-packages\django\db\models\query.py", line 52, in __iter__
+    results = compiler.execute_sql()
+  File "c:\python27\lib\site-packages\django\db\models\sql\compiler.py", line 837, in execute_sql
+    sql, params = self.as_sql()
+  File "c:\python27\lib\site-packages\django\db\models\sql\compiler.py", line 382, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "c:\python27\lib\site-packages\django\db\models\sql\compiler.py", line 49, in pre_sql_setup
+    order_by = self.get_order_by()
+  File "c:\python27\lib\site-packages\django\db\models\sql\compiler.py", line 295, in get_order_by
+    field, self.query.get_meta(), default_order=asc))
+  File "c:\python27\lib\site-packages\django\db\models\sql\compiler.py", line 566, in find_ordering_name
+    field, targets, alias, joins, path, opts = self._setup_joins(pieces, opts, alias)
+  File "c:\python27\lib\site-packages\django\db\models\sql\compiler.py", line 599, in _setup_joins
+    pieces, opts, alias)
+  File "c:\python27\lib\site-packages\django\db\models\sql\query.py", line 1405, in setup_joins
+    names, opts, allow_many, fail_on_missing=True)
+  File "c:\python27\lib\site-packages\django\db\models\sql\query.py", line 1330, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+FieldError: Cannot resolve keyword 'publish_date' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2016-06-18 13:12:48,385 [Thread-2:13048] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /feed
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "c:\python27\lib\site-packages\django\contrib\syndication\views.py", line 41, in __call__
+    feedgen = self.get_feed(obj, request)
+  File "c:\python27\lib\site-packages\django\contrib\syndication\views.py", line 179, in get_feed
+    description = self.__get_dynamic_attr('item_description', item)
+  File "c:\python27\lib\site-packages\django\contrib\syndication\views.py", line 92, in __get_dynamic_attr
+    return attr(obj)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\feed.py", line 46, in item_description
+    return item.description
+AttributeError: 'Article' object has no attribute 'description'
+2016-06-18 13:13:06,667 [Thread-7:11376] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-06-18 13:13:07,924 [Thread-21:1804] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /feed
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "c:\python27\lib\site-packages\django\contrib\syndication\views.py", line 41, in __call__
+    feedgen = self.get_feed(obj, request)
+  File "c:\python27\lib\site-packages\django\contrib\syndication\views.py", line 182, in get_feed
+    self.__get_dynamic_attr('item_link', item),
+  File "c:\python27\lib\site-packages\django\contrib\syndication\views.py", line 92, in __get_dynamic_attr
+    return attr(obj)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\feed.py", line 43, in item_link
+    return '/article/%s/' % item.slug
+AttributeError: 'Article' object has no attribute 'slug'
+2016-06-18 13:14:10,832 [Thread-2:12028] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /feed
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "c:\python27\lib\site-packages\django\contrib\syndication\views.py", line 41, in __call__
+    feedgen = self.get_feed(obj, request)
+  File "c:\python27\lib\site-packages\django\contrib\syndication\views.py", line 186, in get_feed
+    author_name = self.__get_dynamic_attr('item_author_name', item)
+  File "c:\python27\lib\site-packages\django\contrib\syndication\views.py", line 92, in __get_dynamic_attr
+    return attr(obj)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\feed.py", line 49, in item_author_name
+    return item.creator.get_full_name()
+AttributeError: 'Article' object has no attribute 'creator'
+2016-06-18 13:15:00,980 [Thread-2:6640] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /feed
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "c:\python27\lib\site-packages\django\contrib\syndication\views.py", line 41, in __call__
+    feedgen = self.get_feed(obj, request)
+  File "c:\python27\lib\site-packages\django\contrib\syndication\views.py", line 186, in get_feed
+    author_name = self.__get_dynamic_attr('item_author_name', item)
+  File "c:\python27\lib\site-packages\django\contrib\syndication\views.py", line 92, in __get_dynamic_attr
+    return attr(obj)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\feed.py", line 49, in item_author_name
+    return item.author.get()
+AttributeError: 'Article' object has no attribute 'author'
+2016-06-18 13:15:47,874 [Thread-2:1584] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /feed
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "c:\python27\lib\site-packages\django\contrib\syndication\views.py", line 41, in __call__
+    feedgen = self.get_feed(obj, request)
+  File "c:\python27\lib\site-packages\django\contrib\syndication\views.py", line 186, in get_feed
+    author_name = self.__get_dynamic_attr('item_author_name', item)
+  File "c:\python27\lib\site-packages\django\contrib\syndication\views.py", line 92, in __get_dynamic_attr
+    return attr(obj)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\feed.py", line 49, in item_author_name
+    return item.user.get()
+AttributeError: 'User' object has no attribute 'get'
+2016-06-18 13:16:00,700 [Thread-2:6664] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /feed
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "c:\python27\lib\site-packages\django\contrib\syndication\views.py", line 41, in __call__
+    feedgen = self.get_feed(obj, request)
+  File "c:\python27\lib\site-packages\django\contrib\syndication\views.py", line 186, in get_feed
+    author_name = self.__get_dynamic_attr('item_author_name', item)
+  File "c:\python27\lib\site-packages\django\contrib\syndication\views.py", line 92, in __get_dynamic_attr
+    return attr(obj)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\feed.py", line 49, in item_author_name
+    return item.user.all()
+AttributeError: 'User' object has no attribute 'all'
+2016-06-18 13:16:56,755 [Thread-2:8568] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /tag/
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\views.py", line 58, in tag
+    return render(req, 'tag.html', locals())
+  File "c:\python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "c:\python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'feed' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-06-18 13:17:07,239 [Thread-2:4644] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\views.py", line 173, in index
+    return render(req, 'index.html', locals())
+  File "c:\python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "c:\python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'feed' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-06-18 13:17:07,779 [Thread-3:200] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Documents\Coding_Ex\Django_learning\blog_project\blog\views.py", line 173, in index
+    return render(req, 'index.html', locals())
+  File "c:\python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "c:\python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "c:\python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "c:\python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "c:\python27\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "c:\python27\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'feed' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-06-18 13:18:07,516 [Thread-9:9452] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-18 13:18:14,987 [Thread-24:10588] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-20 10:26:40,045 [Thread-7:12168] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-20 10:26:40,740 [Thread-8:9444] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-20 10:26:41,085 [Thread-22:6644] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-06-20 10:26:43,881 [Thread-28:8828] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-20 10:29:01,388 [Thread-7:5380] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-20 10:29:09,638 [Thread-13:7068] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-20 10:29:10,384 [Thread-14:13140] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-20 10:29:12,645 [Thread-33:7400] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-20 10:29:12,720 [Thread-34:4184] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-20 10:32:18,585 [Thread-55:204] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-20 10:32:18,842 [Thread-73:1132] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-06-20 10:32:18,851 [Thread-74:7500] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-06-20 10:33:03,980 [Thread-87:9532] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-20 10:33:04,043 [Thread-88:3968] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-20 10:33:41,194 [Thread-107:15196] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-20 10:33:41,273 [Thread-112:12588] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-20 10:35:09,289 [Thread-131:9488] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-20 10:35:09,328 [Thread-136:10476] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-07 14:59:09,220 [Thread-7:4400] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-07 14:59:10,115 [Thread-12:15808] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-07 15:01:52,381 [Thread-28:6136] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-07-07 15:01:55,163 [Thread-30:7892] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-07-07 15:06:16,618 [Thread-32:6788] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-07-07 15:06:21,549 [Thread-34:8900] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/js/nav.js
+2016-07-07 15:06:37,467 [Thread-37:5500] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-07-07 15:06:48,388 [Thread-46:7120] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-07-07 15:11:41,826 [Thread-49:14220] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-07 15:12:05,608 [Thread-51:13296] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-07 15:12:07,615 [Thread-53:11224] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-07 15:12:08,543 [Thread-55:4584] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-07 15:12:10,325 [Thread-57:15456] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-07 15:12:11,829 [Thread-59:732] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-07 15:12:25,375 [Thread-61:11920] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-07 15:12:27,829 [Thread-63:15268] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-07 15:12:29,118 [Thread-65:11812] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-07 15:12:30,339 [Thread-67:7664] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-07 15:12:31,532 [Thread-69:16036] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-07 15:12:47,408 [Thread-71:13324] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-07 15:12:56,032 [Thread-73:8544] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-07 15:13:12,010 [Thread-75:7708] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2016-07-08 17:00:19,338 [Thread-3:18144] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-08 17:00:19,388 [Thread-4:16112] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-08 17:31:31,051 [Thread-5:14508] [django.request:182] [base:get_response] [WARNING]- Not Found: /index
+2016-08-18 13:24:50,351 [Thread-5:13948] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-08-18 13:24:50,875 [Thread-10:10320] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-08-18 13:26:02,365 [Thread-6:18856] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-08-18 13:26:02,421 [Thread-5:4936] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-08-18 13:26:51,331 [Thread-6:7932] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-08-18 13:26:51,394 [Thread-5:2388] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-08-18 13:38:37,098 [Thread-14:9760] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-08-18 13:38:37,921 [Thread-19:10388] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-08-18 13:38:44,782 [Thread-38:11976] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-08-18 13:38:44,848 [Thread-43:4224] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-08-18 13:38:47,881 [Thread-62:6228] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-08-18 13:38:48,934 [Thread-85:17084] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-08-18 13:38:48,994 [Thread-90:10820] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-08-18 17:26:04,401 [Thread-2:1068] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-08-18 17:26:04,559 [Thread-4:9260] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-08-18 17:26:05,480 [Thread-5:9492] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-08-18 17:26:09,331 [Thread-7:9616] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-08-18 17:26:09,369 [Thread-8:148] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-08-18 17:26:13,131 [Thread-10:7024] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-08-18 17:26:14,562 [Thread-16:7964] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-08-18 17:26:14,592 [Thread-21:5856] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-08-18 17:26:15,131 [Thread-38:9840] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-08-18 17:26:15,543 [Thread-48:9672] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-08-18 17:26:15,809 [Thread-58:9796] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-08-18 17:26:16,017 [Thread-68:336] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-08-18 17:26:16,246 [Thread-78:7188] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-08-18 17:26:16,420 [Thread-88:10236] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-08-18 17:26:16,516 [Thread-94:8468] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-08-24 20:11:58,089 [Thread-4:12480] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico

@@ -1,0 +1,29 @@
+2016-06-16 16:36:16,505 [Thread-2:10124] [blog.views:176] [views:index] [ERROR]- global name 'getPage' is not defined
+2016-06-17 14:25:31,990 [Thread-21:9724] [blog.views:55] [views:tag] [ERROR]- invalid literal for int() with base 10: '/'
+2016-06-17 14:25:35,612 [Thread-23:5864] [blog.views:55] [views:tag] [ERROR]- invalid literal for int() with base 10: '/'
+2016-06-17 14:25:38,848 [Thread-25:7324] [blog.views:55] [views:tag] [ERROR]- invalid literal for int() with base 10: '/'
+2016-06-17 14:25:41,132 [Thread-27:6080] [blog.views:55] [views:tag] [ERROR]- invalid literal for int() with base 10: '/'
+2016-06-17 14:25:42,989 [Thread-29:12944] [blog.views:55] [views:tag] [ERROR]- invalid literal for int() with base 10: '/'
+2016-06-17 14:25:44,148 [Thread-31:8424] [blog.views:55] [views:tag] [ERROR]- invalid literal for int() with base 10: '/'
+2016-06-17 14:27:13,048 [Thread-2:9900] [blog.views:56] [views:tag] [ERROR]- invalid literal for int() with base 10: '/'
+2016-06-17 14:27:15,434 [Thread-8:10404] [blog.views:56] [views:tag] [ERROR]- invalid literal for int() with base 10: ''
+2016-06-17 14:27:16,855 [Thread-10:5512] [blog.views:56] [views:tag] [ERROR]- invalid literal for int() with base 10: ''
+2016-06-17 14:27:45,302 [Thread-14:12372] [blog.views:56] [views:tag] [ERROR]- invalid literal for int() with base 10: ''
+2016-06-17 14:28:26,881 [Thread-2:4832] [blog.views:57] [views:tag] [ERROR]- 'decimal' codec can't encode characters in position 0-1: invalid decimal Unicode string
+2016-06-17 14:28:37,536 [Thread-10:1640] [blog.views:57] [views:tag] [ERROR]- 'decimal' codec can't encode characters in position 0-1: invalid decimal Unicode string
+2016-06-17 14:29:39,526 [Thread-2:9464] [blog.views:57] [views:tag] [ERROR]- 'decimal' codec can't encode characters in position 0-1: invalid decimal Unicode string
+2016-06-17 14:29:42,344 [Thread-8:8044] [blog.views:57] [views:tag] [ERROR]- 'decimal' codec can't encode characters in position 0-1: invalid decimal Unicode string
+2016-06-17 14:52:14,832 [Thread-26:8972] [blog.views:56] [views:tag] [ERROR]- 'decimal' codec can't encode character u'\u6027' in position 0: invalid decimal Unicode string
+2016-06-17 14:53:09,719 [Thread-30:13236] [blog.views:56] [views:tag] [ERROR]- 'decimal' codec can't encode character u'\u6027' in position 0: invalid decimal Unicode string
+2016-06-17 14:53:16,132 [Thread-36:7176] [blog.views:56] [views:tag] [ERROR]- 'decimal' codec can't encode character u'\u6027' in position 0: invalid decimal Unicode string
+2016-06-17 14:53:33,513 [Thread-42:4508] [blog.views:56] [views:tag] [ERROR]- 'decimal' codec can't encode character u'\u6027' in position 0: invalid decimal Unicode string
+2016-06-17 14:54:42,430 [Thread-2:12128] [blog.views:54] [views:tag] [ERROR]- invalid literal for int() with base 10: ''
+2016-06-17 14:55:19,319 [Thread-4:11348] [blog.views:55] [views:tag] [ERROR]- invalid literal for int() with base 10: ''
+2016-06-17 14:58:12,463 [Thread-20:2080] [blog.views:55] [views:tag] [ERROR]- invalid literal for int() with base 10: ''
+2016-06-17 14:58:21,724 [Thread-22:11096] [blog.views:55] [views:tag] [ERROR]- invalid literal for int() with base 10: ''
+2016-06-17 15:02:54,250 [Thread-4:9724] [blog.views:56] [views:tag] [ERROR]- 'QuerySet' object has no attribute 'article_id'
+2016-06-17 15:07:23,986 [Thread-4:3340] [blog.views:58] [views:tag] [ERROR]- 'Tag' object has no attribute 'article_id'
+2016-06-17 15:07:27,112 [Thread-6:4820] [blog.views:58] [views:tag] [ERROR]- 'Tag' object has no attribute 'article_id'
+2016-06-17 15:07:28,158 [Thread-8:4524] [blog.views:58] [views:tag] [ERROR]- 'Tag' object has no attribute 'article_id'
+2016-06-17 15:07:28,946 [Thread-10:11332] [blog.views:58] [views:tag] [ERROR]- 'Tag' object has no attribute 'article_id'
+2016-06-17 15:07:30,453 [Thread-12:9672] [blog.views:58] [views:tag] [ERROR]- 'Tag' object has no attribute 'article_id'
