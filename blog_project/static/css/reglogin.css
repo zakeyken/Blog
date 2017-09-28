@@ -240,7 +240,6 @@ input[type=checkbox].css-checkbox10:checked + label i.css-label10 {
 .copy-right a:hover{
 	color:#000;
 }
-/**//end-copy-right**/
 /*----start-responsive design-----*/
 @media only screen and (max-width:1680px) and (min-width:1440px) {
 	.main{
@@ -360,7 +359,7 @@ input[type=checkbox].css-checkbox10:checked + label i.css-label10 {
 	.copy-right p {
 	margin: 3.5em 0em;
 	}
-}	
+}
 @media only screen and (max-width:640px) and (min-width:480px) {
 	.main{
 	width:95%;
@@ -469,7 +468,7 @@ input[type=checkbox].css-checkbox10:checked + label i.css-label10 {
 	.copy-right p {
 	margin: 3em 0em;
 	}
-}	
+}
 @media only screen and (max-width:320px) and (min-width:240px) {
 	.main{
 	width:96%;

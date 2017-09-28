@@ -1628,3 +1628,7 @@ NoReverseMatch: Reverse for 'feed' with arguments '()' and keyword arguments '{}
 2016-08-18 17:26:16,420 [Thread-88:10236] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
 2016-08-18 17:26:16,516 [Thread-94:8468] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
 2016-08-24 20:11:58,089 [Thread-4:12480] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-09-28 09:03:55,029 [Thread-18:123145410969600] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-09-28 09:15:37,019 [Thread-82:123145410969600] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-09-28 09:22:44,325 [Thread-92:123145410969600] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-09-28 09:22:46,489 [Thread-2:123145549901824] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
